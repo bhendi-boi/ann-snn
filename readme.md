@@ -1,6 +1,6 @@
 # ANN - SNN
 
-- Download `ann.ipynb` and `ann_sample.csv` to replicate my work
+- Download `ann.ipynb` and `ann_train.csv` to replicate my work
 - You need these libraries:
   1. [matplotlib](https://matplotlib.org/stable/users/installing/index.html)
   2. [pytorch](https://pytorch.org/get-started/locally/)
