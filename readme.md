@@ -10,6 +10,6 @@
 
 ## Results
 
-- got around 95% accuracy for `Arrhythmia_classifier`
+- got around 98% accuracy for `Arrhythmia_classifier`
 
   ![Arrhythmia_classifier results](classifier_result.jpg)
