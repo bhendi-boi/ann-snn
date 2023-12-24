@@ -7,3 +7,9 @@
   3. [numpy](https://numpy.org/install/)
   4. [pandas](https://pandas.pydata.org/docs/getting_started/index.html)
 - In addition to them you need inbuilt modules like copy and random
+
+## Results
+
+- got around 95% accuracy for `Arrhythmia_classifier`
+
+  ![Arrhythmia_classifier results](classifier_result.jpg)
