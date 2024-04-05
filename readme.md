@@ -46,6 +46,14 @@ Input feature vectors include `rr_interval`, `qrs_interval`, `st_interval`, `qt_
 
 If you want to update the flowchart, open [flowchart.excalidraw](./flowchart.excalidraw) on [excalidraw](https://excalidraw.com)
 
+### How to play with the parameters
+
+- parameters you can change include `beta` for the LIF neurons, the `sampling strategy`, `learning_rate` specified in the [ADAM](https://pytorch.org/docs/stable/generated/torch.optim.Adam.html#torch.optim.Adam) optimizer.
+- `beta` is the decay rate of membrane potential, clipped between 0 and 1 during the forward-pass.
+- To know more about LIF neurons, visit [this](https://snntorch.readthedocs.io/en/latest/tutorials/tutorial_2.html) website.
+- sampling strategy is used to over sample classes whose count is very less. Whatever the number you assign to a particular key, that will be the number of elements in the final dataset before splitting for training and testing.
+- The over sampling method used is [SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html#smote).
+
 ### Results
 
 ![SNN results](./485snn.png)
